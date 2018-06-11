@@ -12,8 +12,8 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('#typing').on('keydown', function() {
-    $(this).addClass('g pressed');
+  $('#typing').on('keydown', function(e) {
+    console.log(e); 
   });
 }
 
