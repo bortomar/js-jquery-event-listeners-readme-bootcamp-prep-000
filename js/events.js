@@ -21,7 +21,7 @@ function pressIt() {
 
 
 function submitIt() {
-  $('#typing').on('keydown', function(e) {
+  $('form').on('submit', function(e) {
     if (e.key == 'G' || e.key == 'g')
       alert('G pressed');
   });
