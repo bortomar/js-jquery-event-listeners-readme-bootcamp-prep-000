@@ -11,6 +11,12 @@ function frameIt() {
   });
 }
 
+function pressIt() {
+  $('img').on('load', function() {
+    $(this).addClass('tasty');
+  });
+}
+
 $(document).ready(function(){
 
 // call functions here
