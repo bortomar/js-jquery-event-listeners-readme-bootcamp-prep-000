@@ -13,7 +13,7 @@ function frameIt() {
 
 function pressIt() {
   $('#typing').on('keydown', function(e) {
-    console.log(e.key.toUpperCase());
+    console.log(e.key);
     if (e.key.toUpperCase() == 'G')
       alert('G pressed');
   });
