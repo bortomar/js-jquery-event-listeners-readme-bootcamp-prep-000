@@ -12,8 +12,8 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('#typing').on('load', function() {
-    $(this).addClass('tasty');
+  $('#typing').on('keydow', function() {
+    $(this).addClass('g presse');
   });
 }
 
