@@ -18,6 +18,15 @@ function pressIt() {
   });
 }
 
+
+
+function submitIt() {
+  $('#typing').on('keydown', function(e) {
+    if (e.key == 'G' || e.key == 'g')
+      alert('G pressed');
+  });
+}
+
 $(document).ready(function(){
 
 // call functions here
