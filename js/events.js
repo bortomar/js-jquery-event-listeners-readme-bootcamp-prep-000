@@ -3,8 +3,9 @@
 $(document).ready(function(){
 
 // call functions here
+function getIt() {
   $('p').on('click', function() {
-    console.log('ok');
     $(this).css('background-color', 'yellow');
   });
+}
 });
