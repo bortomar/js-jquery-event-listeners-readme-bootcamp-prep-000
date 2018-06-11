@@ -6,8 +6,8 @@ function getIt() {
 }
 
 function frameIt() {
-  $('p').on('click', function() {
-    alert('Hey!');
+  $('img').on('load', function() {
+    $(this).addClass('tasty');
   });
 }
 
@@ -15,5 +15,6 @@ $(document).ready(function(){
 
 // call functions here
 getIt();
+frameIt();
 
 });
