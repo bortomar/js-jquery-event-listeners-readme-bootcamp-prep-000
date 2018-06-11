@@ -3,7 +3,7 @@
 $(document).ready(function(){
 
 // call functions here
-function getIt() {
+var getIt = function() {
   $('p').on('click', function() {
     $(this).css('background-color', 'yellow');
   });
