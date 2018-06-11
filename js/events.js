@@ -13,7 +13,7 @@ function frameIt() {
 
 function pressIt() {
   $('#typing').on('keydow', function() {
-    $(this).addClass('g presse');
+    $(this).addClass('g pressed');
   });
 }
 
