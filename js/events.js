@@ -9,5 +9,5 @@ function getIt() {
     alert('Hey!');
   });
 };
-getIt();
+
 });
